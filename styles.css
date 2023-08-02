@@ -6,22 +6,51 @@ body {
 /* section one */
 .section-one {
     background-color: #1F2937;
-    height: 25%;
-    padding: 10px 10% 70px;
+    max-height: 25%;
+    padding: 10px 15% 70px;
 }
+
+h3, h1 {
+    margin: unset;
+}
+
 h1, .logo {
     color: #F9FAF8;
 }
+
+h1{
+    font-size: 48px;
+}
+
 .link, .text {
     color: #E5E7EB;
     font-size: 18px;
 }
+
 .header {
     display: flex;
+    align-items: center;
     gap: 16px;
+    margin-bottom: 80px;
 }
+
 .logo {
     font-size: 24px;
-    margin-top: unset;
     margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+}
+
+.text, .image {
+    flex: 1;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(140, 140, 140);
 }
