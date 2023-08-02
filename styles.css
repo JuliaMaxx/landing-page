@@ -8,6 +8,7 @@ body {
 .section-one {
     background-color: #1F2937;
     max-height: 25%;
+    padding-bottom: 20px;
     padding: 10px 15% 70px;
 }
 
@@ -21,6 +22,7 @@ h1, .logo, button {
 
 h1{
     font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .link, .text, .image {
