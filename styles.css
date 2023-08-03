@@ -9,7 +9,7 @@ body {
     background-color: #1F2937;
     max-height: 25%;
     padding-bottom: 20px;
-    padding: 10px 15% 70px;
+    padding: 10px 15% 90px;
 }
 
 h3, h1 {
@@ -27,7 +27,7 @@ h1{
     font-weight: 900;
 }
 
-.link, .text, .image, .secondary-call {
+.link, .text, .image, .secondary-call, .footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -112,10 +112,12 @@ button {
 .section-three {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     max-height: 25%;
     background-color: #E5E7EB;
-    padding: 100px 20% 80px;
+    padding: 80px 20% 55px;
 }
 
 .main-txt {
@@ -123,7 +125,6 @@ button {
     font-weight: 300;
     font-style: italic;
     color:#1F2937;
-    line-height: 3.5rem;
 }
 
 .author {
@@ -153,4 +154,15 @@ button {
 .bold-call {
     font-size: 18px;
     margin-bottom: 6px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    max-height: 10%;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
 }
