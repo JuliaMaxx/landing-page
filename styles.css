@@ -4,25 +4,24 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* section one */
-.section-one {
-    background-color: #1F2937;
-    max-height: 25%;
-    padding-bottom: 20px;
-    padding: 10px 15% 90px;
-}
 
-h3, h1 {
-    margin: unset;
+/* shared */
+.section-one, .footer {
+    background-color: #1F2937;
 }
 
 h1, .logo, button, .bold-call {
     color: #F9FAF8;
 }
 
-h1{
-    font-size: 48px; 
+h3, h1 {
+    margin: unset;
 }
+
+.modal, button {
+    background-color: #3882f6;
+}
+
 .info, h1, .author, .bold-call{
     font-weight: 900;
 }
@@ -30,6 +29,18 @@ h1{
 .link, .text, .image, .secondary-call, .footer {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+
+/* section one */
+.section-one {
+    max-height: 25%;
+    padding-bottom: 20px;
+    padding: 10px 15% 90px;
+}
+
+h1{
+    font-size: 48px; 
 }
 
 .header {
@@ -53,12 +64,14 @@ h1{
 .text, .image {
     flex: 1;
 }
+
 .text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
 }
+
 .image {
     height: 200px;
     width: 250px;
@@ -69,15 +82,15 @@ h1{
 }
 
 button {
-    background-color: #3882f6;
     border: none;
     padding: 8px 25px;
     border-radius: 8px;
 }
 
+
 /* section two */
 .section-two {
-    max-height:25%;
+    max-height: 25%;
     padding: 40px 18% 70px;
     text-align: center;
 }
@@ -96,9 +109,9 @@ button {
 .card {
     display:flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     max-width: 176px;
-    gap:8px;
+    gap: 8px;
 }
 
 .box-img {  
@@ -124,13 +137,14 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color:#1F2937;
+    color: #1F2937;
 }
 
 .author {
     align-self: flex-end;
     font-size: 18px;
 }
+
 
 /* section four */
 .section-four {
@@ -139,7 +153,6 @@ button {
 }
 
 .modal {
-    background-color: #3882f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,10 +169,10 @@ button {
     margin-bottom: 6px;
 }
 
+
 /* footer */
 .footer {
     display: flex;
-    background-color: #1F2937;
     max-height: 10%;
     padding: 25px;
     align-items: center;
