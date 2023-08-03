@@ -23,7 +23,7 @@ h1, .logo, button {
 h1{
     font-size: 48px; 
 }
-.info, h1{
+.info, h1, .author{
     font-weight: 900;
 }
 
@@ -102,9 +102,31 @@ button {
 }
 
 .box-img {  
-    padding: 85px;
+    padding: 80px;
     border: 3px solid #3882f6;
     border-radius: 12px;
 }
 
 
+/* section three */
+.section-three {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-height: 25%;
+    background-color: #E5E7EB;
+    padding: 100px 20% 80px;
+}
+
+.main-txt {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color:#1F2937;
+    line-height: 3.5rem;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+}
