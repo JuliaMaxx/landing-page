@@ -21,8 +21,10 @@ h1, .logo, button {
 }
 
 h1{
-    font-size: 48px;
-    font-weight: extra-bold;
+    font-size: 48px; 
+}
+.info, h1{
+    font-weight: 900;
 }
 
 .link, .text, .image {
@@ -61,7 +63,7 @@ h1{
     height: 200px;
     width: 250px;
     background-color: rgb(140, 140, 140);
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -71,4 +73,16 @@ button {
     border: none;
     padding: 6px 25px;
     border-radius: 8px;
+}
+
+/* section two */
+.section-two {
+    max-height:25%;
+    padding: 40px 20% 70px;
+    text-align: center;
+}
+
+.info {
+    font-size: 26px;
+    margin-bottom: 40px;
 }
