@@ -69,7 +69,7 @@ h1{
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #3882f6;
     border: none;
     padding: 6px 25px;
     border-radius: 8px;
@@ -78,7 +78,7 @@ button {
 /* section two */
 .section-two {
     max-height:25%;
-    padding: 40px 20% 70px;
+    padding: 40px 18% 70px;
     text-align: center;
 }
 
@@ -86,3 +86,25 @@ button {
     font-size: 26px;
     margin-bottom: 40px;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 176px;
+    gap:8px;
+}
+
+.box-img {  
+    padding: 85px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+
